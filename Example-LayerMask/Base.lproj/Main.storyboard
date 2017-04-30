@@ -23,7 +23,19 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i7h-NU-I1m" customClass="MaskView" customModule="Example_LayerMask" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="70" width="375" height="597"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sa6-Sf-7fm">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="597"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </tableView>
+                                </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="sa6-Sf-7fm" firstAttribute="leading" secondItem="i7h-NU-I1m" secondAttribute="leading" id="XDN-2J-37h"/>
+                                    <constraint firstItem="sa6-Sf-7fm" firstAttribute="top" secondItem="i7h-NU-I1m" secondAttribute="top" id="Zkb-P2-ijr"/>
+                                    <constraint firstAttribute="trailing" secondItem="sa6-Sf-7fm" secondAttribute="trailing" id="cTr-fz-Y8X"/>
+                                    <constraint firstAttribute="bottom" secondItem="sa6-Sf-7fm" secondAttribute="bottom" id="xgA-oD-xjB"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.68524848090000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
