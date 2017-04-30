@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B8914C51EB6514E006F05A4 /* MaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8914C41EB6514E006F05A4 /* MaskView.swift */; };
 		4BD2CB311EB6505700223C74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD2CB301EB6505700223C74 /* AppDelegate.swift */; };
 		4BD2CB331EB6505700223C74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD2CB321EB6505700223C74 /* ViewController.swift */; };
 		4BD2CB361EB6505700223C74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD2CB341EB6505700223C74 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B8914C41EB6514E006F05A4 /* MaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskView.swift; sourceTree = "<group>"; };
 		4BD2CB2D1EB6505700223C74 /* Example-LayerMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example-LayerMask.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD2CB301EB6505700223C74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BD2CB321EB6505700223C74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				4BD2CB301EB6505700223C74 /* AppDelegate.swift */,
 				4BD2CB321EB6505700223C74 /* ViewController.swift */,
+				4B8914C41EB6514E006F05A4 /* MaskView.swift */,
 				4BD2CB341EB6505700223C74 /* Main.storyboard */,
 				4BD2CB371EB6505700223C74 /* Assets.xcassets */,
 				4BD2CB391EB6505700223C74 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				4BD2CB331EB6505700223C74 /* ViewController.swift in Sources */,
 				4BD2CB311EB6505700223C74 /* AppDelegate.swift in Sources */,
+				4B8914C51EB6514E006F05A4 /* MaskView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +305,7 @@
 				4BD2CB411EB6505700223C74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
